@@ -1892,7 +1892,7 @@
 				TargetAttributes = {
 					CCE9D1051C1812F6004E862E = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = H22N8T6DAX;
+						DevelopmentTeam = K54N85QB24;
 					};
 					CCE9D11E1C1812F6004E862E = {
 						CreatedOnToolsVersion = 7.1;
@@ -2423,7 +2423,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 68;
-				DEVELOPMENT_TEAM = H22N8T6DAX;
+				DEVELOPMENT_TEAM = K54N85QB24;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(SRCROOT)/../Meiqia-SDK-files",
@@ -2457,7 +2457,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 68;
-				DEVELOPMENT_TEAM = H22N8T6DAX;
+				DEVELOPMENT_TEAM = K54N85QB24;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(SRCROOT)/../Meiqia-SDK-files",

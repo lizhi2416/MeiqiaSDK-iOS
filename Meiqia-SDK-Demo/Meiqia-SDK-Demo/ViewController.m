@@ -35,6 +35,10 @@ static CGFloat const kMQButtonToBottomSpacing   = 128.0;
     CGFloat buttonWidth;
 }
 
+static NSString * extracted() {
+    return MQ_RECEIVED_NEW_MESSAGES_NOTIFICATION;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -58,7 +62,7 @@ static CGFloat const kMQButtonToBottomSpacing   = 128.0;
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(onlineSuccessed) name:MQ_CLIENT_ONLINE_SUCCESS_NOTIFICATION object:nil];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateUnreadMessageCount) name:MQ_RECEIVED_NEW_MESSAGES_NOTIFICATION object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateUnreadMessageCount) name:extracted() object:nil];
     
 //    [self getUnreadMessageswithIds:@[@"123",@"111",@"3"] complete:^(NSArray *messages, NSString *id, NSString *clientId) {
 //        NSLog(@"message count: %d, client id:%@", (int)messages.count, clientId);

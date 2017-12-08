@@ -531,7 +531,7 @@ static CGFloat const kMQChatViewInputBarHeight = 80.0;
         return NO;
     }
     //xlp  T5637
-    [self checkOpenVisitorNoMessageBool];
+//    [self checkOpenVisitorNoMessageBool];
 
     [self.chatViewService sendTextMessageWithContent:text];
     sendTime = [NSDate timeIntervalSinceReferenceDate];

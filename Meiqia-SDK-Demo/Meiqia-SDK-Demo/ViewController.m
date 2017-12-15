@@ -187,7 +187,7 @@ static int indicator_tag = 10;
 
 - (void)didTapBasicFunctionBtn:(UIButton *)button {
     //基本功能 - 在线客服
-    
+    [MQManager openMeiqiaService];
     MQChatViewManager *chatViewManager = [[MQChatViewManager alloc] init];
 //    [chatViewManager.chatViewStyle setEnableOutgoingAvatar:NO];
 //    [chatViewManager.chatViewStyle setEnableRoundAvatar:

@@ -1,137 +1,137 @@
-"new_message"         = "Send your message...";
+"new_message"         = "Message";
 
-"record_speak"        = "Hold to talk";
+"record_speak"        = "Hold to Speak";
 
-"record_end"          = "Release to send";
+"record_end"          = "Release to Send";
 
-"cancel"              = "cancel";
+"cancel"              = "Cancel";
 
-"select_gallery"      = "Albums";
+"select_gallery"      = "Choose from Albums";
 
 "select_camera"       = "Camera";
 
-"wait_agent"          = "Allocating an agent for you...";
+"wait_agent"          = "Transferring to Service Operator";
 
-"not_access_camera"   = "Please go to Settings — Privacy — Photos. Then select ON for This App.";
+"not_access_camera"   = "Please allow access to Camera.";
 
-"not_access_photos"   = "Please go to Settings — Privacy — Camera. Then select ON for This App.";
+"not_access_photos"   = "Please allow access to Photos.";
 
-"display_new_message" = "Received a new message";
+"display_new_message" = "New Messages";
 
-"network_jam"         = "Please check your internet connection and try again.";
+"network_jam"         = "Network Jammed. Please check network.";
 
-"simulator_not_support_camera"      = "Simulator cannot access camera";
+"simulator_not_support_camera"      = "No Access to Camera on Simulator";
 
-"simulator_not_support_microphone"  = "Simulator cannot access microphone";
+"simulator_not_support_microphone"  = "No Access to Microphone on Simulator";
 
-"recode_time_too_short" = "Message too short";
+"recode_time_too_short" = "Too Short";
 
-"record_cancel_swipe"   = "Swipe up to cancel";
+"record_cancel_swipe"   = "Slide up to Cancel";
 
-"record_cancel_realse"  = "Release to cancel";
+"record_cancel_realse"  = "Release to Cancel";
 
-"save_photo_error"      = "Sorry, failed to save photo";
+"save_photo_error"      = "Failed to Save";
 
-"save_photo_success"    = "Saved photo";
+"save_photo_success"    = "Saved";
 
-"save_text_success"     = "Copied";
+"save_text_success"     = "Succeeded";
 
-"save_photo"            = "save";
+"save_photo"            = "Save";
 
-"save_text"             = "copy";
+"save_text"             = "Copy";
 
-"record_error"          = "Sorry, failed to record-_-";
+"record_error"          = "Failed to Tape Voice";
 
 "user_confirm"          = "OK";
 
-"no_more_messages"      = "No more messages";
+"no_more_messages"      = "No More Messages";
 
 "welcome_chat"          = "";
 
 "default_assistant"     = "Assistant";
 
-"no_agent_title"        = "Leave message";
+"no_agent_title"        = "Leave Messages";
 
-"no_agent_tips"         = "Sorry, there are no agents.\nPlease send your contact information to us. We will contact you as soon as possible.";
+"no_agent_tips"         = "Sorry! No Service Operators Online. \nPlease leave messages and we will reply you as quickly as possible.";
 
-"retry_send_message"    = "Resend message?";
+"retry_send_message"    = "Send Again?";
 
-"alert_view_cancel"     = "cancel";
+"alert_view_cancel"     = "Cancel";
 
-"alert_view_confirm"    = "confirm";
+"alert_view_confirm"    = "OK";
 
-"cannot_refresh"        = "Cannot refresh anymore~";
+"cannot_refresh"        = "Can Not Refresh!";
 
 "make_call_to"          = "Call ";
 
-"send_message_to"       = "Send a message to ";
+"send_message_to"       = "Send messages to ";
 
-"open_url_by_safari"    = "Open this url by Safari";
+"open_url_by_safari"    = "Open URL on Safari";
 
-"make_email_to"         = "Send email";
+"make_email_to"         = "Send Email";
 
-"load_history_message_error"    = "Sorry, failed to load history messages";
+"load_history_message_error"    = "Sorry! Failed to Load History";
 
-"microphone_denied"     = "Please go to Settings. And open microphone permission for This App.";
+"microphone_denied"     = "Please allow access to Microphone";
 
-"meiqia_communication_failed" = "Sorry, cannot access communication server, please change your network and retry.";
+"meiqia_communication_failed" = "Sorry! Network Error! Please check and try again.";
 
-"meiqia_evaluation_sheet"     = "Evaluate";
+"meiqia_evaluation_sheet"     = "Comment";
 
-"meiqia_redirect_sheet"     = "Redirect";
+"meiqia_redirect_sheet"     = "Redirecting to Service Operator";
 
-"file_download_file_is_expired" = "File is overdue";
-"file_download_canceld" = "Download canceled";
-"file_download_failed" = "Download fail";
+"file_download_file_is_expired" = "File Expired";
+"file_download_canceld" = "Canceled to Download";
+"file_download_failed" = "Failed to Download";
 "file_download_downloading" = "Downloading...";
-"file_download_complete" = "Download complete";
-"file_download_ %@ ∙ %@overdue" = "%@ ∙ overdue in %@ hours";
+"file_download_complete" = "Succeeded";
+"file_download_ %@ ∙ %@overdue" = "%@ ∙ Expired in %@ hours";
 
-"message_tips_send_message_fail_listed_in_black_list" = "Sorry, the CS system is down.";
+"message_tips_send_message_fail_listed_in_black_list" = "Sorry! Service System Breakdown!";
 
-"message_tips_online_failed_listed_in_black_list" = "Sorry, the CS system is down.";
+"message_tips_online_failed_listed_in_black_list" = "Sorry! Service System Breakdown!";
 
-"reply_tip_text"        = "Sorry, no agents available. You can give us a message";
+"reply_tip_text"        = "Sorry! No Service Operators Online. Please leave us messages.";
 
-"bot_redirect_tip_text"  = "I am sorry the reply of robot did not solve your problem. Tap here to redirect to an agent.";
+"bot_redirect_tip_text"  = "Please transfer to Service Operator if you need more help.";
 
-"bot_manual_redirect_tip_text" = "If you need help, tap here to redirect to an agent.";
+"bot_manual_redirect_tip_text" = "Please transfer to Service Operator if you need more help.";
 
-"cannot_text_client_is_onlining"  = "Allocating an agent for you. Please resend later.";
+"cannot_text_client_is_onlining"  = "Transferring to Service Operator. Please try later.";
 
-"send_to_fast"  = "Send too fast. Take a break :)";
-"leave_a_message" = "Leave a message";
-"submit" = "submit";
-"leave_a_message_placeholder" = "Please enter your message";
-"param_not_allow_null" = "%@ can not be empty";
-"contact_at_lease_enter_one" = "Please enter at lease one contact info";
-"submit_failure" = "Submit failed";
-"add_picture" = "Add picture";
+"send_to_fast"  = "Too Many Messages! Please take a break!";
+"leave_a_message" = "Leave Messages";
+"submit" = "Submit";
+"leave_a_message_placeholder" = "Enter Messages";
+"param_not_allow_null" = "%@ (Required)";
+"contact_at_lease_enter_one" = "Please enter at lease one contact.";
+"submit_failure" = "Failed to Submit";
+"add_picture" = "Add Images";
 "tel" = "Phone";
-"tel_placeholder" = "Please enter your phone number";
+"tel_placeholder" = "Phone Number";
 "email" = "Email";
-"email_placeholder" = "Please enter your email";
+"email_placeholder" = "Email Address";
 "qq" = "QQ";
 "qq_placeholder" = "Please enter your QQ number";
 "wechat" = "WeChat";
 "wechat_placeholder" = "Please enter your WeChat account";
 "name" = "Name";
-"name_placeholder" = "Please enter your name";
+"name_placeholder" = "Name";
 
-"wating_in_queue_tip_text" = "please hold on, %d visitors in front, of you can leave a message";
+"wating_in_queue_tip_text" = "Please hold on, %d visitors ahead of you. Or leave us messages!";
 
 //询前表单
-"pre_chat_list_title" = "Client Support";
-"pre_chat_form_title" =  "Please fill those blanks";
-"pre_chat_form_mutiple_selection_label" = "(multiple)";
-"pre_chat_form_black_alert_label" = "Please complete the red blank";
+"pre_chat_list_title" = "Support";
+"pre_chat_form_title" =  "Please fill blanks";
+"pre_chat_form_mutiple_selection_label" = "(Multiple)";
+"pre_chat_form_black_alert_label" = "(Required)";
 
 //pull refresh
-"pull_refresh_normal" = "Pull to load";
-"pull_refresh_triggered" = "Realse to load";
+"pull_refresh_normal" = "Pull to Load";
+"pull_refresh_triggered" = "Release to Load";
 //xlp
 // 请输入消息
-"input_content" = "Please input your content...";
+"input_content" = "";//Please input your content...
 // 服务连接中,请稍候
-"service_connectting_wait" = "Service is connectting,please waitting";
+"service_connectting_wait" = "Service Connecting! Please wait.";
 

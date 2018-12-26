@@ -38,6 +38,15 @@
     if ([deviceString isEqualToString:@"iPhone10,1"] || [deviceString isEqualToString:@"iPhone10,4"])    return @"iPhone8";
     if ([deviceString isEqualToString:@"iPhone10,2"] || [deviceString isEqualToString:@"iPhone10,5"])    return @"iPhone8Plus";
     if ([deviceString isEqualToString:@"iPhone10,3"] || [deviceString isEqualToString:@"iPhone10,6"])    return @"iPhoneX";
+    if ([deviceString isEqualToString:@"iPhone11,2"]) {
+        return @"iPhoneXS";
+    }
+    if ([deviceString isEqualToString:@"iPhone11,4"] || [deviceString isEqualToString:@"iPhone11,6"]) {
+        return @"iPhoneXS Max";
+    }
+    if ([deviceString isEqualToString:@"iPhone11,8"]) {
+        return@"iPhoneXR";
+    }
     
     //模拟机
     if ([deviceString isEqualToString:@"x86_64"])        return @"Simulator";
@@ -82,20 +91,22 @@
         ||[deviceString isEqualToString:@"iPad4,8"]
         ||[deviceString isEqualToString:@"iPad4,9"])      return @"iPad mini 3";
     
-    
-
-    
     return deviceString;
 }
 + (BOOL)kXlpObtainDeviceVersionIsIphoneX{
     //xlp 最后要去掉
     NSString * str = [self kXlpObtainDeviceVersion];
-    if ([str isEqualToString:@"iPhoneX"] ) {
+    if ([str isEqualToString:@"iPhoneX"]) {
+        return YES;
+    } else if ([str isEqualToString:@"iPhoneXS"]) {
+        return YES;
+    }else if ([str isEqualToString:@"iPhoneXR"]) {
+        return YES;
+    }else if ([str isEqualToString:@"iPhoneXS Max"]) {
         return YES;
     } else {
         return NO;
     }
-    
 }
 
 + (NSInteger )kXlpObtainNaviBarHeight{
